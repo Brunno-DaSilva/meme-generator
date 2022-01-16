@@ -1,10 +1,12 @@
+import Header from "./components/Header/Header";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <h1>MEME-GEN</h1>
+        <Header />
       </div>
     </div>
   );

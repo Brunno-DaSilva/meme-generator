@@ -1,0 +1,60 @@
+:root {
+  --background: #272727;
+  --foreground: #747477;
+  --light-blue: #0eb4cc;
+  --light-green: #47f2ff;
+  --yellow: #ffe400;
+  --royal-blue: #16099f;
+  --OffWhite: #f8f8f8;
+  --transition: ease-in-out 0.4s;
+  --radius: 0.25rem;
+}
+
+.Header {
+  background: var(--OffWhite);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__logo,
+.Header__nav {
+  margin: 1.5rem;
+}
+
+.Header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.Header__logo img {
+  width: 45px;
+}
+.Header__logo h3 {
+  color: var(--light-blue);
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.Header__nav .nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  list-style-type: none;
+}
+
+.Header__nav .nav__list li a {
+  text-decoration: none;
+  color: var(--light-blue);
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
