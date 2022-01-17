@@ -1,9 +1,7 @@
 :root {
-  --background: #272727;
-  --foreground: #747477;
   --light-blue: #0eb4cc;
   --light-green: #47f2ff;
-  --yellow: #ffe400;
+  --yellow: #f3af06;
   --royal-blue: #16099f;
   --OffWhite: #f8f8f8;
   --transition: ease-in-out 0.4s;
@@ -12,6 +10,7 @@
 }
 
 .Header {
+  width: 100vw;
   background: var(--OffWhite);
   color: var(--foreground);
   font-family: "Roboto", sans-serif;
@@ -58,4 +57,10 @@
   color: var(--light-blue);
   font-weight: bold;
   margin: 0 0.5rem;
+  transition: var(--transition);
+}
+
+.Header__nav .nav__list li a:hover {
+  cursor: pointer;
+  color: var(--royal-blue);
 }

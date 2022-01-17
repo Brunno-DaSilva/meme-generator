@@ -1,0 +1,76 @@
+:root {
+  --light-blue: #0eb4cc;
+  --light-green: #47f2ff;
+  --yellow: #f3af06;
+  --royal-blue: #16099f;
+  --OffWhite: #f8f8f8;
+  --transition: ease-in-out 0.4s;
+  --radius: 0.25rem;
+  --border: 1px solid red;
+}
+
+.Meme {
+  background-color: transparent;
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.Meme__form {
+  width: 750px;
+  height: 600px;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: var(--border);
+}
+
+.Meme__form--button {
+  background-color: #16099f;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: var(--OffWhite);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 1.5rem;
+}
+
+.Meme__form--input {
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: var(--input-color);
+  border: 1px solid #cdd9ed;
+  background: #ffffff;
+  transition: border 0.3s ease;
+  margin: 1rem;
+}
