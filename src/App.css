@@ -2,14 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 :root {
-  --background: #272727;
+  --background: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
   --foreground: #747477;
-  --light-orange: #ff652f;
+  --light-blue: #0eb4cc;
+  --light-green: #47f2ff;
   --yellow: #ffe400;
-  --green-grass: #14a76c;
+  --royal-blue: #16099f;
   --OffWhite: #f8f8f8;
   --transition: ease-in-out 0.4s;
   --radius: 0.25rem;
+  --border: 1px solid red;
 }
 
 *,
@@ -23,6 +25,7 @@
 
 body {
   background: var(--background);
+  min-height: 100vh;
   color: var(--foreground);
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
