@@ -45,6 +45,7 @@
   cursor: pointer;
   display: inline-flex;
   font-size: 1rem;
+  text-transform: uppercase;
   justify-content: center;
   line-height: 1.25;
   margin: 0;
@@ -59,6 +60,7 @@
   vertical-align: baseline;
   width: auto;
   margin-top: 1.5rem;
+  cursor: pointer;
 }
 
 .Meme__form--input {
@@ -67,6 +69,7 @@
   font-size: 1rem;
   font-weight: 500;
   border-radius: 6px;
+  text-indent: 0.25rem;
   -webkit-appearance: none;
   color: var(--input-color);
   border: 1px solid #cdd9ed;

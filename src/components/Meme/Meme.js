@@ -23,7 +23,7 @@ function Meme() {
             className="Meme__form--input"
           ></input>
         </div>
-        <button className="Meme__form--button">Generate meme</button>
+        <button className="Meme__form--button">Get a New Image</button>
       </form>
     </main>
   );
